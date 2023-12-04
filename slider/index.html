@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Page title</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src='script.js'></script>
+    <meta charset="utf-8"/>
+    <style>
+        background-color: black;
+        font-size: 24px;
+        color: white;
+        opacity: 0.8;
+    </style>
+    </head>
+
+    <body onload="switchSlide()">
+        
+        <span onclick="setSlide(1)" style="cursor: pointer"> 1 </span>
+        <span onclick="setSlide(2)" style="cursor: pointer"> 2 </span>
+        <span onclick="setSlide(3)" style="cursor: pointer"> 3 </span>
+        <span onclick="setSlide(4)" style="cursor: pointer"> 4 </span>
+        <span onclick="setSlide(5)" style="cursor: pointer"> 5 </span>
+
+        <div id="slider"></div>
+    </body>    
+</html>
